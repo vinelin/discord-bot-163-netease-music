@@ -61,5 +61,5 @@ netease_dl.py - 音乐搜索，下载，删除代码
 
 # 致谢
 ### [discord.py](https://github.com/Rapptz/discord.py)
-### [网易云API分析](https://www.dazhuanlan.com/2020/03/20/5e73cb9a327c6/?__cf_chl_jschl_tk__=471c5b62335149e81c0844e224e547b06998911b-1609310672-0-AWogFhy6hx7De_C7ocM30eF2xU2QZGY8Re8IgijBcNL_jNd5nrlZfpSXaLuYd1cuW0J_h2nud17vpCUpVI2ZOoCKlNZUL5aP6lenA-Xp3bqUa2ecZ-l0-WNuA0liP2Pu83OeE5yf_68fx9jo2xlxUq_MNfaprR2qY3nmXsLO88tI6JXSUqP8SqsV-KSWmeqB7afAGRHk7-gcZFRWx2QEF9hwPDcfET6hlKGjcAmADcgXzvgjWzuFzFRnUZAO3fbTzyIj9goXRamQ-LXigR8Eh-Pe_HI1HcfFzys-weB0wu61HW6f6cCndCZ51EXFaZhvU1VAznspeU_QLbgoB8quZno)
+### [网易云API分析](https://www.dazhuanlan.com/2020/03/20/5e73cb9a327c6/)
 ### [Netease Music Bot for Discord](https://github.com/vinelin/discord-netease-music-bot)
