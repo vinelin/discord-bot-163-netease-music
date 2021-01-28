@@ -3,6 +3,7 @@
 
 [![discord-bot-163-netease-meusic](https://socialify.git.ci/vinelin/discord-bot-163-netease-meusic/image?description=1&font=Inter&language=1&owner=1&pattern=Brick%20Wall&theme=Light)](https://github.com/vinelin/discord-bot-163-netease-meusic/)
 
+python3版本：3.6.12
 
 # 使用
 ### 1.首先安装 discord.py[voice]
@@ -27,7 +28,7 @@
      #     discord.opus.load_opus('/usr/lib/x86_64-linux-gnu/libopus.so.0')
      
 ### 5.运行
-    python main.py
+    python3 main.py
  
 # 文件说明
 main.py - bot主要代码
