@@ -1,4 +1,4 @@
-import discord
+﻿import discord
 from discord.ext import commands
 import asyncio
 import logging
@@ -149,7 +149,7 @@ class MusicBox(commands.Cog):
     #     await ctx.send(lyric)
 
     @commands.command()
-    async def joker(self, ctx):
+    async def j(self, ctx):
         result = hitokoto.hitokoto()
         embed = discord.Embed(title=result['hitokoto'], color=0xffb6c1) \
             .set_footer(text=result['from'], icon_url='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/271/clown-face_1f921.png')
@@ -181,7 +181,7 @@ class MusicBox(commands.Cog):
         embed.add_field(name=".queue", value="查看等待播放的歌曲", inline=False)
         embed.add_field(name=".remove 序号", value="删除所选歌曲", inline=False)
         embed.add_field(name=".stop", value="停止播放", inline=False)
-        embed.add_field(name=".joker", value="悲伤春秋时间", inline=False)
+        embed.add_field(name=".j", value="悲伤春秋时间", inline=False)
         await ctx.send(embed=embed)
 
 
@@ -195,7 +195,7 @@ async def on_ready():
 
 
 
-@commands.command()
+@bot.command()
 async def caiquan(ctx):
     emoji = [':fist:', ':v:', ':raised_hand:']
     n = random.randint(1, 900) % 3
